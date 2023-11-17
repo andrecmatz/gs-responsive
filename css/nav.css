@@ -1,5 +1,11 @@
 *{
+    scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background-color: white;
+    z-index: 1;
 }
 
 @media (max-width: 320px) {
@@ -102,22 +108,22 @@
         align-items: center;
         justify-content: space-between;
         margin: 0 auto;
-        padding: 30px;
+        padding: 15px;
+        width: 100%;
+        position: fixed;
     }
     .nav-logo {
-        width: 15em;
+        width: 5em;
         margin: 0 auto;
     }
     .nav-ul {
         display: flex;
+        gap: 100px;
         margin: 0 auto;
     }
     .nav-li a {
         font-family: 'Roboto';
-        font-weight: 600;
-        font-size: 4em;
-        white-space: nowrap;
-        padding: 120px;
+        font-size: 1.5em;
         text-decoration: none;
         color: black;
         transition: .3s;

@@ -1,4 +1,33 @@
-.sec-texto-health {
-    display: block;
+.foto-main img {
+    width: 1000px;
+    margin-left: 450px;
+    margin-top: -250px;
+}
+
+.texto-sobre-nos {
+    font-size: 1.4em;
+    font-family: 'Roboto';
+    width: 80ch;
+    text-align: center;
     margin: 0 auto;
+    margin-top: -16em;
+    line-height: 1.8em;
+}
+
+.span {
+    color: #fd3164;
+}
+
+.background {
+    width: 100%;
+    position: fixed;
+    top: -10px;
+    z-index: -1;
+    opacity: 50%;
+}
+.video {
+    width: 100%;
+    position: fixed;
+    top: -10px;
+    z-index: -1;
 }
