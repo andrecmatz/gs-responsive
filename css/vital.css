@@ -1,76 +1,229 @@
-.vital {
-  background-color: white;
-  margin-top: 10em;
-  padding: 100px;
+@media (min-width: 420px) {
+  .vital {
+    background-color: white;
+    margin-top: 7em;
+    padding: 60px;
+  }
+  .img-vital img {
+    width: 300px;
+    margin-left: 5px;
+  }
+  .texto-sobre-vital {
+    font-size: 1.1em;
+    font-family: "Roboto";
+    width: 35ch;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7em;
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-bottom: -10px;
+  }
+  .olho-vital {
+    width: 120px;
+    position: absolute;
+    right: 35.5%;
+    top: 90%;
+    z-index: 0;
+  }
+  .button-75 {
+    margin-left: 28px;
+    margin-top: 75px;
+    align-items: center;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: "Codec cold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 54px;
+    justify-content: center;
+    letter-spacing: 0.4px;
+    line-height: 1;
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .button-75:active {
+    outline: 0;
+  }
+
+  .button-75:hover {
+    outline: 0;
+  }
+
+  .button-75 span {
+    transition: all 200ms;
+  }
+
+  .button-75:hover span {
+    transform: scale(0.9);
+    opacity: 0.75;
+  }
 }
 
-.img-vital img {
-  width: 500px;
-  margin-left: 585px;
-  margin-top: 20px;
-  justify-content: center;
+@media (min-width: 820px) {
+  .vital {
+    background-color: white;
+    margin-top: 10em;
+    padding: 60px;
+  }
+  .img-vital img {
+    width: 500px;
+    margin-left: 100px;
+  }
+  .texto-sobre-vital {
+    font-size: 1.2em;
+    font-family: "Roboto";
+    width: 50ch;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7em;
+    margin-top: -40px;
+    margin-bottom: -10px;
+  }
+  .olho-vital {
+    width: 150px;
+    position: absolute;
+    right: 40%;
+    top: 97.5%;
+    z-index: 0;
+  }
+  .button-75 {
+    margin-left: 210px;
+    margin-top: 75px;
+    align-items: center;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: "Codec cold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 54px;
+    justify-content: center;
+    letter-spacing: 0.4px;
+    line-height: 1;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .button-75:active {
+    outline: 0;
+  }
+
+  .button-75:hover {
+    outline: 0;
+  }
+
+  .button-75 span {
+    transition: all 200ms;
+  }
+
+  .button-75:hover span {
+    transform: scale(0.9);
+    opacity: 0.75;
+  }
 }
 
-.texto-sobre-vital {
-  font-size: 1.4em;
-  font-family: "Roboto";
-  width: 80ch;
-  text-align: center;
-  margin: 0 auto;
-  line-height: 1.8em;
-}
+@media (min-width: 1440px) {
+  .vital {
+    background-color: white;
+    margin-top: 10em;
+    padding: 100px;
+  }
 
-.olho-vital {
-  width: 200px;
-  position: absolute;
-  right: 44.5%;
-  top: 85.2%;
-  z-index: 0;
-}
+  .img-vital img {
+    width: 500px;
+    margin-left: 585px;
+    margin-top: 20px;
+    justify-content: center;
+  }
 
-.button-75 {
-  margin-left: 680px;
-  margin-top: 90px;
-  align-items: center;
-  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
-  border: 0;
-  border-radius: 10px;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  font-family: "Codec cold", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  height: 74px;
-  justify-content: center;
-  letter-spacing: 0.4px;
-  line-height: 1;
-  width: 300px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 3px;
-  text-decoration: none;
-  text-transform: uppercase;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
+  .texto-sobre-vital {
+    font-size: 1.4em;
+    font-family: "Roboto";
+    width: 80ch;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.8em;
+  }
 
-.button-75:active {
-  outline: 0;
-}
+  .olho-vital {
+    width: 200px;
+    position: absolute;
+    right: 44.5%;
+    top: 85.2%;
+    z-index: 0;
+  }
 
-.button-75:hover {
-  outline: 0;
-}
+  .button-75 {
+    margin-left: 680px;
+    margin-top: 90px;
+    align-items: center;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: "Codec cold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 74px;
+    justify-content: center;
+    letter-spacing: 0.4px;
+    line-height: 1;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
 
-.button-75 span {
-  transition: all 200ms;
-}
+  .button-75:active {
+    outline: 0;
+  }
 
-.button-75:hover span {
-  transform: scale(0.9);
-  opacity: 0.75;
+  .button-75:hover {
+    outline: 0;
+  }
+
+  .button-75 span {
+    transition: all 200ms;
+  }
+
+  .button-75:hover span {
+    transform: scale(0.9);
+    opacity: 0.75;
+  }
 }

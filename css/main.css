@@ -1,3 +1,30 @@
+@media (min-width: 420px) {
+  .foto-main img {
+    width: 350px;
+    margin-left: 40px;
+    margin-top: -95px;
+  }
+  .texto-sobre-nos {
+    font-size: 1.1em;
+    font-family: "Roboto";
+    width: 35ch;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -7em;
+    line-height: 1.8em;
+  }
+  .span {
+    color: #fd3164;
+  }
+  .background {
+    width: 250%;
+    position: fixed;
+    top: -10px;
+    z-index: -1;
+    opacity: 50%;
+  }
+}
+
 @media (min-width: 820px) {
   .foto-main img {
     width: 650px;
@@ -17,7 +44,7 @@
     color: #fd3164;
   }
   .background {
-    width: 100%;
+    width: 150%;
     position: fixed;
     top: -10px;
     z-index: -1;
