@@ -72,87 +72,45 @@
             </div>
         </section>
         <footer id="contato" class="footer">
-             <form id="myForm" action="#" onsubmit="return validarFormulario()">
+            <form id="myForm" action="" onsubmit="return validarFormulario()">
                 <div class="formbold-main-wrapper">
-                    <!-- Author: FormBold Team -->
-                    <!-- Learn More: https://formbold.com -->
-                    <div class="formbold-form-wrapper">
-                      <form action="https://formbold.com/s/FORM_ID" method="POST">
-                          <div class="formbold-input-flex">
-                            <div>
-                                <input
-                                type="text"
-                                name="firstname"
-                                id="firstname"
-                                placeholder="Italo"
-                                class="formbold-form-input"
-                                />
-                                <label for="firstname" class="formbold-form-label"> Nome </label>
-                            </div>
-                            <div>
-                                <input
-                                type="text"
-                                name="lastname"
-                                id="lastname"
-                                placeholder="Matzumura"
-                                class="formbold-form-input"
-                                />
-                                <label for="lastname" class="formbold-form-label"> Sobrenome </label>
-                            </div>
-                          </div>
-                  
-                          <div class="formbold-input-flex">
-                            <div>
-                                <input
-                                type="email"
-                                name="email"
-                                id="email"
-                                placeholder="fiap@fiap.com.br"
-                                class="formbold-form-input"
-                                />
-                                <label for="email" class="formbold-form-label"> E-mail </label>
-                            </div>
-                            <div>
-                                <input
-                                type="text"
-                                name="phone"
-                                id="phone"
-                                placeholder="(11) 99999-9992"
-                                class="formbold-form-input"
-                                />
-                                <label for="phone" class="formbold-form-label"> Celular </label>
-                            </div>
-                            <div>
-                                <input
-                                type="text"
-                                name="address"
-                                id="address"
-                                placeholder="Av. Lins, 1222"
-                                class="formbold-form-input"
-                                />
-                                <label for="phone" class="formbold-form-label"> Endereço </label>
-                            </div>
-                          </div>
-                          <div class="formbold-textarea">
-                            <textarea
-                                rows="6"
-                                name="message"
-                                id="message"
-                                placeholder="Escreva sua mensagem..."
-                                class="formbold-form-input"
-                            ></textarea>
-                            <label for="message" class="formbold-form-label"> Assunto </label>
+                  <div class="formbold-form-wrapper">
+                    <form action="https://formbold.com/s/FORM_ID" method="POST">
+                      <div class="formbold-input-flex">
+                        <div>
+                          <input type="text" name="firstname" id="firstname" placeholder="Seu nome" class="formbold-form-input" />
+                          <label for="firstname" class="formbold-form-label">Nome</label>
                         </div>
-                  
-                          <button class="formbold-btn">
-                              Enviar mensagem
-                          </button>
-                      </form>
-                    </div>
-                  </div>
+                        <div>
+                          <input type="text" name="lastname" id="lastname" placeholder="Seu sobrenome" class="formbold-form-input" />
+                          <label for="lastname" class="formbold-form-label">Sobrenome</label>
+                        </div>
+                      </div>
+              
+                      <div class="formbold-input-flex">
+                        <div>
+                          <input type="email" name="email" id="email" placeholder="Seu e-mail" class="formbold-form-input" />
+                          <label for="email" class="formbold-form-label">E-mail</label>
+                        </div>
+                        <div>
+                          <input type="text" name="phone" id="phone" placeholder="Seu celular" class="formbold-form-input" />
+                          <label for="phone" class="formbold-form-label">Celular</label>
+                        </div>
+                        <div>
+                          <input type="text" name="address" id="address" placeholder="Seu endereço" class="formbold-form-input" />
+                          <label for="phone" class="formbold-form-label">Endereço</label>
+                        </div>
+                      </div>
+                      <div class="formbold-textarea">
+                        <textarea rows="6" name="message" id="message" placeholder="Escreva sua mensagem..." class="formbold-form-input"></textarea>
+                        <label for="message" class="formbold-form-label">Assunto</label>
+                      </div>
+              
+                      <button class="formbold-btn">Enviar mensagem</button>
                     </form>
+                  </div>
                 </div>
-             </form>
+              </form>
              <section id="perguntas-recentes" class="perguntas-recentes">
                 <h2 class="h2-faq">FAQ</h2>
                 <select class="caixa-perguntas">
@@ -165,7 +123,8 @@
         </footer>
     </div>
 
-    
+    <script src="script/script.js"></script>
+    <script src="script/server.js"></script>
 
 
     <!-- <video class="video" autoplay loop muted plays-inline>

@@ -1,25 +1,32 @@
 function validarFormulario() {
-    // Obter os valores dos campos
-    var nome = document.getElementById('firstname').value;
-    var sobrenome = document.getElementById('lastname').value;
-    var email = document.getElementById('email').value;
-    var telefone = document.getElementById('phone').value;
-
-    // Adicione aqui suas regras de validação
-    if (nome.trim() === '' || sobrenome.trim() === '' || email.trim() === '' || telefone.trim() === '') {
-        alert('Por favor, preencha todos os campos.');
+    // Implement the validation logic here
+    // Check if all required fields are filled in
+    var requiredFields = ["firstname", "lastname", "email", "phone", "address", "message"];
+    for (var i = 0; i < requiredFields.length; i++) {
+      var field = document.getElementById(requiredFields[i]);
+      if (!field.value.trim()) {
+        // Alert the user to fill in the field
+        alert("Por favor, preencha o campo " + '"' + field.placeholder + '"');
         return false;
+      }
     }
-
-    // Exemplo de validação do formato do telefone (neste caso, um formato simples para fins de demonstração)
-    var formatoTelefone = /^\(\d{2}\) \d{5}-\d{4}$/;
-    if (!formatoTelefone.test(telefone)) {
-        alert('Por favor, insira um número de telefone válido. Exemplo: (11) 12345-6789');
-        return false;
+  
+    var email = document.getElementById("email").value;
+    var emailRegex = /^[\w-]+@[\w-]+\.[a-zA-Z]+$/;
+    if (!emailRegex.test(email)) {
+      alert("Por favor insira um endereço de e-mail válido.");
+      return false;
     }
-
-    // Adicione mais regras de validação conforme necessário
-
-    // Se todas as validações passarem, o formulário pode ser enviado
+  
+    var phone = document.getElementById("phone").value;
+    var phoneRegex = /^\d{11}$/;
+    if (!phoneRegex.test(phone)) {
+      alert("Por favor, insira um telefone válido no formato 11999999999.");
+      return false;
+    }
+  
     return true;
-}
+  }
+
+//   API
+
