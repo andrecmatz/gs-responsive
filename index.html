@@ -72,7 +72,7 @@
             </div>
         </section>
         <footer id="contato" class="footer">
-            <form id="myForm" action="" onsubmit="return validarFormulario()">
+            <form id="myForm" action="http://localhost:3000/api/form" onsubmit="return validarFormulario()">
                 <div class="formbold-main-wrapper">
                   <div class="formbold-form-wrapper">
                     <form action="https://formbold.com/s/FORM_ID" method="POST">
@@ -113,9 +113,9 @@
               </form>
              <section id="perguntas-recentes" class="perguntas-recentes">
                 <h2 class="h2-faq">FAQ</h2>
-                <select class="caixa-perguntas">
-                    <option value="" disabled selected>Selecione para ver as perguntas recentes</option>
-                </select>
+                <select id="faqSelect" class="caixa-perguntas">
+                  <option value="" disabled selected>Selecione para ver as perguntas recentes</option>
+               </select>
             </section>
              <div class="copy">
              <span class="copy-2">HealthX &copy 2023</span>
@@ -123,13 +123,11 @@
         </footer>
     </div>
 
-    <script src="script/script.js"></script>
-    <script src="script/server.js"></script>
+    <script src="script.js"></script>
+    
 
 
-    <!-- <video class="video" autoplay loop muted plays-inline>
-        <source src="vid/SnapInsta.io-Hex Particles Medical Grid Hexagon Pattern Technology Background Loop 4K-(1080p).mp4" type="video/mp4">
-    </video> -->
+
 </body>
-</html><!-- HTML !-->
+</html>
 
